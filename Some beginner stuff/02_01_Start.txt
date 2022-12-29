@@ -1,0 +1,22 @@
+SELECT empno,name,salary FROM emp_tab WHERE salary>3000;
+
+SELECT empno,name,salary FROM emp_tab WHERE name='SCOTT';
+
+SELECT empno,name,salary FROM emp_tab WHERE name='Scott';
+
+SELECT empno,name,salary,hiredate FROM emp_tab WHERE hiredate='09-JUN-81';
+
+SELECT empno,name,salary,hiredate FROM emp_tab WHERE hiredate='09-JUN-2081';
+
+SELECT * FROM emp_tab WHERE salary BETWEEN 2000 AND 5000;
+
+SELECT * FROM emp_tab WHERE deptno IN (30,70);
+
+SELECT * FROM emp_tab WHERE name LIKE '_I%';
+
+SELECT empno,deptno FROM emp_tab WHERE deptno IS NULL;
+
+SELECT * FROM emp_tab;
+
+
+

@@ -1,0 +1,4 @@
+SELECT deptno, MAX(salary) FROM emp_tab WHERE MAX(salary)>=4000 GROUP BY deptno;
+
+SELECT deptno, MAX(salary) FROM emp_tab GROUP BY deptno HAVING MAX(salary)>=4000;
+

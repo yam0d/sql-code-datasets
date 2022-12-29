@@ -1,0 +1,4 @@
+SELECT name,TO_CHAR(hiredate,'yyyy') "Year Of Joining" FROM emp_tab;
+
+SELECT NVL(name,'Unavailable') FROM emp_tab;
+

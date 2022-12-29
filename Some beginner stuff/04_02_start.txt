@@ -1,0 +1,2 @@
+SELECT manager, MAX(salary) FROM emp_tab GROUP BY manager ORDER BY MAX(salary) DESC;
+

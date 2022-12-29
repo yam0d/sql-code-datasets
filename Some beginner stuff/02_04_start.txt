@@ -1,0 +1,13 @@
+SELECT empno,name,salary FROM emp_tab ORDER BY salary;
+
+SELECT empno,name,salary FROM emp_tab ORDER BY salary DESC;
+
+SELECT empno,name,salary FROM emp_tab ORDER BY name;
+
+SELECT empno,name,salary FROM emp_tab ORDER BY name DESC;
+
+SELECT empno,name,salary,hiredate FROM emp_tab ORDER BY hiredate;
+
+SELECT empno,name,salary,hiredate FROM emp_tab ORDER BY hiredate DESC;
+
+SELECT * FROM emp_tab ORDER BY deptno, salary DESC;
